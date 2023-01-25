@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #130f1e;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+}
+
+#content h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+#content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  width: 30%;
+  color: #ffffff;
+  opacity: 0.67;
+}
+
+.buttons {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 317px;
+  height: 48px;
+
+  background: #8257e5;
+  border-radius: 24px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.primary:hover {
+  background: #9674e6;
+}
+
+.primary:focus {
+  border: 2px solid #d9cdf7;
+}
+
+.primary:disabled {
+  opacity: 0.56;
+  cursor: not-allowed;
+}
+
+.loading {
+  cursor: progress;
+}
+
+.loading i {
+  font-size: 16px;
+  animation: spin 1.5s infinite linear;
+}
+
+.secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 317px;
+  height: 48px;
+
+  background: #3c3748;
+  opacity: 0.56;
+  border-radius: 24px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.secondary:hover {
+  background-color: #6a617f;
+}
+
+.secondary:focus {
+  border: 2px solid #d9cdf7;
+}
+
+.secondary:disabled {
+  opacity: 0.56;
+}
+
+.tertiary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  gap: 8px;
+  width: 317px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 24px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+}
+
+.tertiary i {
+  margin-right: 12px;
+}
+
+.tertiary:focus {
+  border: 2px solid #d9cdf7;
+  border-radius: 24px;
+}
+
+.movable {
+  cursor: move;
+}
+
+.movable i {
+  font-size: 16px;
+}
+
+.tertiary:disabled {
+  opacity: 0.56;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
