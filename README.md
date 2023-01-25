@@ -32,7 +32,7 @@
 
 ## 🧾 Resumo do projeto
 
-Desafio 02 #boraCodar da Rocketseat - Preview de um produto de uma Loja.
+Desafio 03 #boraCodar da Rocketseat - Preview de um produto de uma Loja.
 
 Live site URL : [Desafio 03 #boraCodar - Rocketseat ](https://carlosalbertojusto.github.io/bora-codar-03-botoes/)
 
